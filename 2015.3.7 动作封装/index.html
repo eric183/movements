@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>多物体运动 </title>
+<script src="action.js"></script>
+<script>
+	
+window.onload = function(){ 
+	var aLi  = document.getElementById('oDiv');	
+	aLi.onmouseover = function(){ 
+		startMove(aLi,{width:500,height:150});
+		
+		
+
+	}
+}
+
+</script>
+<style> 
+*{ 
+	padding: 0;
+	margin: 0;
+}
+
+#oDiv{ 
+	width:200px;
+	height: 100px;
+	background:yellow;
+	margin-bottom: 20px;
+}
+</style>
+</head>
+<body>
+<div id = 'oDiv'>
+	
+
+</div>
+
+
+</body>
+</html>
